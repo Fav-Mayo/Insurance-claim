@@ -94,28 +94,40 @@ The fifth visual depicts the trend of total vehicle accidents in each state by a
 
 
  # Report Snapshot 2 (Power BI DESKTOP): Incident Analytics
- ![incident analytics](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/bf3e1cd3-abaf-487b-ab8f-d9d8e9a4df50)
- 
-# Insights
+ ## Problem Statement 2
 
 This dashboard displays a visual examination of accidents, highlighting data insights. 
 The key performance indicator was developed by gathering the total number of drivers who were under the influence of alcohol and those who were not, as well as the gender of the drunk drivers. 
+- Step 15: New measure was created to calculate the number of male druck drivers
+ 
+ Following DAX expression was written to find the number of the male drunck drivers,
+ Male Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Male")
+
+ - Step 16: New measure was created to calculate the number of female druck drivers
+ 
+ Following DAX expression was written to find the number of the female drunck drivers,
+ Feale Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Female")
+ 
+ ![incident analytics](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/bf3e1cd3-abaf-487b-ab8f-d9d8e9a4df50)
+ 
+# Insights
+ 
 The first graphic shows the Total Accident by Accident Reason, with speeding being the greatest number. 
 The second graph depicts the Total Accident Per Year, with 2015 having the greatest number of accidents. 
 The third graph displays the total number of accidents by collision type, with nose to tail having the largest number. 
 The fourth graph illustrates the total accident by weather and collision types, with nose-to-tail on wet pavement having the greatest number. 
 
 # Report Snapshot 3 (Power BI DESKTOP): Claim Analytics
+ ## Problem Statement 3
+This dashboard gives a visual overview of the client's claims and insurance policy, highlighting key insights. 
 
 ![claim analytics 1](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/4616d04b-e595-45c5-88f0-099177bd40ef)
 
 # Insights
 
-This dashboard gives a visual overview of the client's claims and insurance policy, highlighting key insights. 
 The first graph displays the overall accident by month, and July has the largest number of events. 
 The second graph depicts the overall accident by weekday, with Tuesday having the largest number of events.
 The third graph displays the overall sum repair amount and sum insured amount by claim month, with the largest number of claims in October. 
-
 The fourth graph depicts the total accident by police notification, revealing that 86% of customers did not inform the police. 
 The fifth graph depicts the total accident by prior claim, with three being the greatest number of times the customer requested before the repair payment was granted to them. 
 The sixth graphic shows the total amount insured and the repair cost by vehicle type. 
