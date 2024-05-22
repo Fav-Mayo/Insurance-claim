@@ -57,15 +57,9 @@ A card visual was used to represent count of customers.
          Female = CALCULATE([Total Customer],Sheet2[Gender] ="Female")
          Male = CALCULATE([Total Customer],Sheet2[Gender] ="Male")
  A card visual was used to represent this
-
- snap of male
  
 ![male sn](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/3a98debf-4693-4898-8cba-d51ca947ca64)
 
-
-
-
- Snap of Female
  ![female sn](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/311fd4a2-1f6b-44ac-a00f-dde2a2ef44b7)
 
 
@@ -101,12 +95,12 @@ The key performance indicator was developed by gathering the total number of dri
 - Step 15: New measure was created to calculate the number of male druck drivers
  
  Following DAX expression was written to find the number of the male drunck drivers,
- Male Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Male")
+         Male Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Male")
 
  - Step 16: New measure was created to calculate the number of female druck drivers
  
  Following DAX expression was written to find the number of the female drunck drivers,
- Feale Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Female")
+         Female Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Female")
  
  ![incident analytics](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/bf3e1cd3-abaf-487b-ab8f-d9d8e9a4df50)
  
