@@ -1,8 +1,10 @@
 
 
-# Insurance claim
+# Insurance claim Data
+# Customer Analytics
 
 ### Dashboard Link: https://drive.google.com/file/d/1k9Lpc8iBeIfX7q9sU3NLrMUiv7IR9CV7/view?usp=drive_link
+## Problem Statement 1
 
 This dashboard provides a visual examination of the clients and the car involved in the collision, highlighting data insights. 
 It helps the company understand the age group, marital status and occupation of their most patronized customers as well as their most frequently 
@@ -70,8 +72,7 @@ Snap of new calculated column,
 ![age](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/45b3b21f-92a4-464b-bc8f-2463657b3f6f)
 
  
- # Report Snapshot 1 (Power BI DESKTOP):Customer Analytics
- ## Problem Statement 1
+ # Report Snapshot 1 (Power BI DESKTOP): Customer Analytics
 
   ![customer analytics](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/0a894215-9796-499a-9056-9517a66282fe)
 
