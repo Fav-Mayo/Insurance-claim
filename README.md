@@ -104,18 +104,19 @@ The key performance indicator was developed by gathering the total number of dri
  
       Male Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Male")
 
-      A card visual was used to represent the total number of male drunk drivers
-  ![male drunk](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/1ee0831a-edda-4f59-ab0d-1236cc3e019f)
+A card visual was used to represent the total number of male drunk drivers
+![male drunk](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/1ee0831a-edda-4f59-ab0d-1236cc3e019f)
+
          
  - Step 16: New measure was created to calculate the number of female druck drivers
  
  Following DAX expression was written to find the number of the female drunck drivers,
  
        Female Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Female")
-       
-        A card visual was used to represent the total number of female drunk drivers
-        
-    ![female drunk](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/017a28b4-3b37-4a0f-b153-10d0358feca8)
+
+ A card visual was used to represent the total number of female drunk drivers
+![female drunk](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/017a28b4-3b37-4a0f-b153-10d0358feca8)
+
         
   ![incident analytics](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/bf3e1cd3-abaf-487b-ab8f-d9d8e9a4df50)
  
