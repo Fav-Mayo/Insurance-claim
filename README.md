@@ -36,6 +36,7 @@ for creating new column following DAX expression was written;
         
 Snap of new calculated column,
 
+
 ![age group](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/d0e0232d-2102-484e-9dda-29996b5e04c4)
 
 
@@ -46,6 +47,8 @@ Following DAX expression was written for the same,
         Total Customer = COUNTA(Sheet2[Vehicle color])
         
 A card visual was used to represent count of customers.
+
+
 ![TT customers](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/eece6737-97bf-4ea0-9b1c-2b2ed7ea4cf9)
 
 
@@ -56,9 +59,12 @@ A card visual was used to represent count of customers.
  
          Female = CALCULATE([Total Customer],Sheet2[Gender] ="Female")
          Male = CALCULATE([Total Customer],Sheet2[Gender] ="Male")
+         
  A card visual was used to represent this
  
+ 
 ![male sn](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/3a98debf-4693-4898-8cba-d51ca947ca64)
+
 
  ![female sn](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/311fd4a2-1f6b-44ac-a00f-dde2a2ef44b7)
 
@@ -68,7 +74,10 @@ A card visual was used to represent count of customers.
  Following DAX expression was written to find customer age,
  
          age@accident = DATEDIFF(Sheet2[DOB],Sheet2[Accident Date],YEAR)
+         
 Snap of new calculated column,
+
+
 ![age](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/45b3b21f-92a4-464b-bc8f-2463657b3f6f)
 
  
@@ -105,6 +114,8 @@ The key performance indicator was developed by gathering the total number of dri
       Male Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Male")
 
 A card visual was used to represent the total number of male drunk drivers
+
+
 ![male drunk](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/1ee0831a-edda-4f59-ab0d-1236cc3e019f)
 
          
@@ -115,6 +126,8 @@ A card visual was used to represent the total number of male drunk drivers
        Female Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Female")
 
  A card visual was used to represent the total number of female drunk drivers
+
+ 
 ![female drunk](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/017a28b4-3b37-4a0f-b153-10d0358feca8)
 
         
@@ -132,7 +145,8 @@ The fourth graph illustrates the total accident by weather and collision types, 
 
 # Report Snapshot 3 (Power BI DESKTOP): Claim Analytics
  ## Problem Statement 3
-This dashboard gives a visual overview of the client's claims and insurance policy, highlighting key insights. 
+This dashboard gives a visual overview of the client's claims and insurance policy, highlighting key insights.
+
 
 ![claim analytics 1](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/4616d04b-e595-45c5-88f0-099177bd40ef)
 
