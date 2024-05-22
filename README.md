@@ -1,10 +1,8 @@
 
 
-# Customer Analytics
+# Insurance claim
 
 ### Dashboard Link: https://drive.google.com/file/d/1k9Lpc8iBeIfX7q9sU3NLrMUiv7IR9CV7/view?usp=drive_link
-
-## Problem Statement 1
 
 This dashboard provides a visual examination of the clients and the car involved in the collision, highlighting data insights. 
 It helps the company understand the age group, marital status and occupation of their most patronized customers as well as their most frequently 
@@ -73,17 +71,24 @@ Snap of new calculated column,
 
  
  # Report Snapshot 1 (Power BI DESKTOP):Customer Analytics
+ ## Problem Statement 1
 
   ![customer analytics](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/0a894215-9796-499a-9056-9517a66282fe)
 
 # Insights
 
 This dashboard provides a visual examination of the clients and the car involved in the collision, highlighting data insights. 
+
 The key performance indicator was developed by acquiring the whole quantity of clients that we have in the spreadsheet, as well as the total number of male and female clients.
+
 The first graphic depicts the overall accident by vehicle type using a clustered column chart, with SUVs having the greatest number of accidents.
+
 The second graph shows total accidents by age group, with teens having the largest number of accidents. 
+
 The third graph shows overall accidents by gender, with males having the largest number of accidents. 
+
 The fourth visual depicts Total Accident by Marital Status and Gender, with married men having the greatest number of accidents. 
+
 The fifth visual depicts the trend of total vehicle accidents in each state by age group, with teens in the Northern Territory having the greatest number of accidents.
 
 
@@ -95,20 +100,25 @@ The key performance indicator was developed by gathering the total number of dri
 - Step 15: New measure was created to calculate the number of male druck drivers
  
  Following DAX expression was written to find the number of the male drunck drivers,
-         Male Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Male")
-
+ 
+      Male Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Male")
+         
  - Step 16: New measure was created to calculate the number of female druck drivers
  
  Following DAX expression was written to find the number of the female drunck drivers,
-         Female Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Female")
+ 
+       Female Drunk Drivers = CALCULATE([Drunk Drivers],Sheet2[Gender]="Female")
  
  ![incident analytics](https://github.com/rmotr-curriculum/freecodecamp-intro-to-pandas/assets/157006710/bf3e1cd3-abaf-487b-ab8f-d9d8e9a4df50)
  
 # Insights
  
 The first graphic shows the Total Accident by Accident Reason, with speeding being the greatest number. 
+
 The second graph depicts the Total Accident Per Year, with 2015 having the greatest number of accidents. 
+
 The third graph displays the total number of accidents by collision type, with nose to tail having the largest number. 
+
 The fourth graph illustrates the total accident by weather and collision types, with nose-to-tail on wet pavement having the greatest number. 
 
 # Report Snapshot 3 (Power BI DESKTOP): Claim Analytics
@@ -120,10 +130,15 @@ This dashboard gives a visual overview of the client's claims and insurance poli
 # Insights
 
 The first graph displays the overall accident by month, and July has the largest number of events. 
+
 The second graph depicts the overall accident by weekday, with Tuesday having the largest number of events.
+
 The third graph displays the overall sum repair amount and sum insured amount by claim month, with the largest number of claims in October. 
+
 The fourth graph depicts the total accident by police notification, revealing that 86% of customers did not inform the police. 
-The fifth graph depicts the total accident by prior claim, with three being the greatest number of times the customer requested before the repair payment was granted to them. 
+
+The fifth graph depicts the total accident by prior claim, with three being the greatest number of times the customer requested before the repair payment was granted to them.
+
 The sixth graphic shows the total amount insured and the repair cost by vehicle type. 
 
 
